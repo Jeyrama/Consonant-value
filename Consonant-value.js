@@ -30,3 +30,13 @@ function solve(s) {
   }
 
 // or
+
+function solve(s) {
+  let arr = s.replace(/[aeiou]/gi, ' ')
+             .split(' ')
+             .filter(x => x != '')
+             .map(x => x.split('')
+                        .map(y => y.charCodeAt() - 96)
+                        .reduce((a,b) => a + b ))
+  return Math.max(...arr)
+};
