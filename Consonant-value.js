@@ -18,3 +18,6 @@ For the word "strength", solve("strength") = 57
 "ngth" = 14 + 7 + 20 + 8 = 49. 
 The highest is 57.
 */
+
+
+// Solution
